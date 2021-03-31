@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  {% if title %}
+    <title>{{ title }}</title>
+  {% else %}
+    <title>Марс</title>
+  {% endif %}
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+  <link rel="stylesheet" href="{{ css_path }}">
+</head>
+<body>
+<nav class="navbar navbar-light bg-light">
+  <span class="navbar-brand mb-0 h1"><h1>Миссия колонизация Марса</h1></span>
+</nav>
+<div class="alert alert-light mb-4" role="alert">
+  <h4>И на Марсе будут яблони цвести!</h4>
+</div>
+{% block content %}
+{% endblock %}
+</body>
+</html>

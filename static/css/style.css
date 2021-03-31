@@ -1,0 +1,32 @@
+.action-card {
+    margin-bottom: 3%;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.log-header {
+    text-align: center;
+}
+
+.table-content {
+    background-color: #eeeeff;
+}
+
+.table-content > td {
+    max-width: 60px;
+}
+
+td.success {
+    background-color: #daf7a6;
+}
+
+td.failure {
+    background-color: #ffeeff;
+}
+
+form.register-form {
+    max-width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
